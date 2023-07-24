@@ -9,6 +9,6 @@ namespace BridgePattern.Abstraction
 {
     internal interface IView
     {
-        public abstract void Show(IMediaResource mediaResource);
+        public void Show(IMediaResource mediaResource);
     }
 }
